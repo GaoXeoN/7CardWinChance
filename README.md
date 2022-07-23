@@ -28,6 +28,7 @@ each card has a unique number between 1 and 52
 |Spades|40|41|42|43|44|45|46|47|48|49|50|51|52|
 
 ### example:
-> C:\\>7card.exe 31 25 50 37 34 49 6
+> C:\\>7card.exe 31 25 50 37 34 49 6<br />
 > 0.298989898989899
+
 Results: 29,89% chance to win
