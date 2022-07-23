@@ -18,7 +18,7 @@ because it' s so structured with arrays within arrays, true/false requests inste
 2) change the path to where the exe file is located
 3) write the file name followed by 7 numbers with spaces in between
 
-each card has a unique number between 0 and 51<br />
+each card has a unique number between 1 and 52
 
 ||2|3|4|5|6|7|8|9|10|Jack|Queen|King|Ace|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
@@ -28,6 +28,6 @@ each card has a unique number between 0 and 51<br />
 |Spades|40|41|42|43|44|45|46|47|48|49|50|51|52|
 
 ### example:
-> C:\\>7card.exe 31 25 50 37 34 49 6<br />
-> 0.298989898989899<br />
-Results: 29,89% chance to win<br />
+> C:\\>7card.exe 31 25 50 37 34 49 6
+> 0.298989898989899
+Results: 29,89% chance to win
