@@ -19,13 +19,15 @@ because it' s so structured with arrays within arrays, true/false requests inste
 3) write the file name followed by 7 numbers with spaces in between
 
 each card has a unique number between 0 and 51<br />
-					2		3		4		5		6		7		8		9		10		Jack		Queen		King		Ace<br />
-Diamonds	0		1		2		3		4		5		6		7		8			9				10			11			12<br />
-...Clubs	13	14	15	16	17	18	19	20	21		22			23			24			25<br />
-..Hearts	26	27	28	29	30	31	32	33	34		35			36			37			38<br />
-..Spades	39	40	41	42	43	44	45	46	47		48			49			50			51<br />
+
+||2|3|4|5|6|7|8|9|10|Jack|Queen|King|Ace|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|Diamonds|0|1|2||3|4|5|6|7|8|9||10|11|12|
+|Clubs|13|14|15|16|17|18|19|20|21|22|23|24|25|
+|Hearts|26|27|28|29|30|31|32|33|34|35|36|37|38|
+|Spades|39|40|41|42|43|44|45|46|47|48|49|50|51|
 
 ### example:
-C:\>7card.exe 31 25 50 37 34 49 6<br />
-0.298989898989899<br />
+> C:\\>7card.exe 31 25 50 37 34 49 6<br />
+> 0.298989898989899<br />
 Results: 29,89% chance to win<br />
